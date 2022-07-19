@@ -1,3 +1,95 @@
-h1 {
-    color:blue;
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+    font-style: Bold;
 }
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+    font-style: ExtraLight;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+  }
+
+header {
+    background-image: url(../img/MainImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 165px 121px 165px;
+}
+
+.header-info {
+    display: flex;
+    max-width: 616px;
+    flex-direction: column;
+    padding-left: 165px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    padding-bottom: 211px;
+}
+
+.header-info-UpTxt {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    font-style: ExtraLight;
+}
+
+.header-info-title {
+    margin: 0;
+    font-size: 60px;
+    line-height: 74px;
+    padding-bottom: 24px;
+    padding-top: 22px;
+
+}
+
+.header-info-DownTxt {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+    font-style: ExtraLight;
+    padding-bottom: 45px;
+}
+
+.header-info-link {
+    text-decoration: none;
+}
+
+.header-info-LinkTxt {
+    display: block;
+    color: #FFD723;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+

@@ -37,6 +37,7 @@ header {
     background-position: center;
     position: relative;
     padding-left: 166px;
+    z-index: 2;
 }
 
 .header-nav {
@@ -104,10 +105,8 @@ header {
     top: 708px;
     left: 166px;
     right: 0;
-    -webkit-box-shadow: 0px 34px 27px -4px rgba(34, 60, 80, 0.19); 
-    -moz-box-shadow: 0px 34px 27px -4px rgba(34, 60, 80, 0.19); 
-    box-shadow: 0px 34px 27px -4px rgba(34, 60, 80, 0.19);
-    
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
 }
 
 .img-logo {
@@ -117,21 +116,22 @@ header {
     height: 113px;
 }
 
-.text-item-right {
+.AboutUs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    position: relative;
+    z-index: 1;
 }
 
-.text-item-info {
+.AboutUs-info {
     font-family: Poppins;
     max-width: 475px;
     padding: 244px 0 100px 166px;
 
 }
 
-.text-item-info-Uptxt {
+.AboutUs-info-Uptxt {
     display: block;
     font-size: 14px;
     line-height: 21px;
@@ -140,7 +140,7 @@ header {
     color: #4D533CE5;
 }
 
-.text-item-info-title {
+.AboutUs-info-title {
     margin: 0;
     font-size: 38px;
     line-height: 46px;
@@ -149,7 +149,7 @@ header {
 
 }
 
-.text-item-info-Downtxt {
+.AboutUs-info-Downtxt {
     display: block;
     font-size: 16px;
     line-height: 26px;
@@ -159,15 +159,15 @@ header {
     padding-bottom: 42px;
 }
 
-.text-item-info-link {
+.AboutUs-info-link {
 
 }
 
-.text-item-info-Linktxt {
+.AboutUs-info-Linktxt {
 
 }
 
-.text-item-card {
+.AboutUs-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -175,13 +175,10 @@ header {
     padding: 244px 0 60px 40px;
     margin: 0 166px 0 0;
     font-family: Poppins;
-    -webkit-box-shadow: -16px 19px 100px 41px rgba(34, 60, 80, 0.08); 
-    -moz-box-shadow: -16px 19px 100px 41px rgba(34, 60, 80, 0.08); 
-    box-shadow: -16px 19px 100px 41px rgba(34, 60, 80, 0.08);
-
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
 }
 
-.text-item-card-title {
+.AboutUs-card-title {
     max-width: 426px;
     font-size: 24px;
     line-height: 40px;
@@ -189,25 +186,25 @@ header {
     font-style: italic;
 }
 
-.text-item-card-person {
+.AboutUs-card-person {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.text-item-card-person-img {
+.AboutUs-card-person-img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     box-shadow: 20px 25px 43px rgb(0 0 0 / 18%);
 }
 
-.text-item-card-person-name {
+.AboutUs-card-person-name {
     padding-left: 30px;
 
 }
 
-.text-item-card-person-FIO {
+.AboutUs-card-person-FIO {
     font-style: Bold;
     font-size: 22px;
     line-height: 33px;
@@ -216,8 +213,198 @@ header {
 
 }
 
-.text-item-card-person-CEO {
+.AboutUs-card-person-CEO {
     font-size: 16px;
     line-height: 24px;
+}
+
+.WeHaveProject {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px 166px 110px 166px;
+    position: relative;
+}
+
+.WeHaveProject::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: rgba(33, 56, 66, 0.0955529);
+    width: 1110px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+
+.WeHaveProject-Title {
+    max-width: 325px;
+    margin: 0;
+    font-family: Poppins;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #4D533C;
+}
+
+.WeHaveProject-txt {
+    max-width: 518px;
+    display: block;
+    font-family: Poppins;
+    font-style: ExtraLight;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+    color: #21384299;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 166px 123px 0;
+}
+
+.Right {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 123px 166px;
+}
+
+.CaseStudy {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CaseStudy-info {
+    max-width: 475px;
+    font-family: Poppins;
+
+}
+
+.CaseStudy-info-title {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #4D533C;
+    padding-bottom: 24px;
+}
+
+.CaseStudy-info-txt {
+    font-style: ExtraLight;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #21384299;
+    padding-bottom: 50px;
+
+}
+
+.CaseStudy-info-link {
+    text-decoration: none;
+
+}
+
+.CaseStudy-info-link-txt {
+    display: block;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 40px;
+    color: #D4D6D4;
+
+}
+
+.CaseStudy-comment {
+    position: relative;
+
+}
+
+.CaseStudy-comment-img {
+    width: 735px;
+    height: 550px;
+
+}
+
+.CaseStudy-comment-message {
+    position: absolute;
+    top: 372px;
+    left: 322px;
+    background-color: #FFF;
+    width: 453px;
+    padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+}
+
+.CaseStudy-comment-message-txt {
+    display: block;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 24px;
+    color: #4D533C;
+
+}
+
+.CaseStudy-comment-message-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.CaseStudy-comment-message-person-img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+
+}
+
+.CaseStudy-comment-message-person-name {
+    padding-left: 14px;
+
+}
+
+.CaseStudy-comment-message-person-FIO {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: #4D533C;
+
+}
+
+.CaseStudy-comment-message-person-CEO {
+    display: block;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152934;
+
+}
+
+.CaseStudy-comment-message-3dmodel {
+    position: absolute;
+    top: 342px;
+    left: -35px;
+    background-color: #FFF;
+    width: 453px;
+    padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
 
 }

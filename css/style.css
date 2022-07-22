@@ -408,3 +408,371 @@ header {
     border-radius: 8px;
 
 }
+
+.ReadMore {
+    padding: 177px 166px 322px 166px;
+    position: relative;
+}
+
+.ReadMore::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: rgba(33, 56, 66, 0.0955529);
+    width: 1110px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 27px;
+
+}
+
+.ReadMore-Title {
+    max-width: 607px;
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #4D533C;
+
+}
+
+.ReadMore-cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0 0 0;
+
+}
+
+.ReadMore-cases-article {
+    display: flex;
+    flex-direction: column;
+    max-width: 255px;
+    padding: 27px 31px 36px 30px;
+
+}
+
+.ReadMore-cases-articles-titel {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #4D533C;
+    padding-bottom: 20px;
+    max-width: 183px;
+
+}
+
+.ReadMore-cases-articles-txt {
+    display: block;
+    font-family: Poppins;
+    font-style: ExtraLight;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #21384299;
+    padding-bottom: 56px;
+    max-width: 194px;
+}
+
+.ReadMore-cases-articles-link {
+    text-decoration: none;
+
+}
+
+.ReadMore-cases-articles-link-txt {
+    display: block;
+
+}
+
+footer {
+    background-image: url(../img/FooterBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.LetsMake {
+    background-color: #FAFAFA;
+    padding-left: 166px;
+    position: absolute;
+    top: -181px;
+    right: 166px;
+    left: 0;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+
+
+}
+
+.LetsMake-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 74px;
+    margin: 0;
+    color: #4D533C;
+    max-width: 822px;
+    padding: 70px 0 50px 0;
+
+}
+
+.LetsMake-link {
+    text-decoration: none;
+
+}
+
+.LetsMake-link-txt {
+    text-decoration: uppercase;
+    display: block;
+    padding-bottom: 70px;
+
+}
+
+.Footer-PhoneAdress {
+    padding: 310px 0 52px 166px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Footer-Phone {
+    padding-right: 128px;
+
+}
+
+.Footer-Phone-txt {
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: ExtraLight;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    color: #B6C197;
+}
+
+.Footer-Phone-Number {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 40px;
+    display: block;
+    color: #FFFFFF;
+
+}
+
+.Footer-Adress {
+
+}
+
+.Footer-adress-txt {
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: ExtraLight;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    color: #B6C197;
+}
+
+.Footer-adress-number {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 40px;
+    display: block;
+    color: #FFFFFF;
+
+}
+
+.Footer-links {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 166px 60px 166px;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.Footer-links-services-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer-links::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #5D6544;
+    width: 1110px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+
+}
+
+.Footer-links-Services {
+    padding-right: 100px;
+    width: 165px;
+    
+}
+
+.Footer-links-Services:last-child {
+    padding-right: 0px;
+}
+
+.Footer-links-titels {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 0 0 21px 0;
+
+}
+
+.footer-links-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.footer-links-list-txt {
+    padding: 0 0 10px 0;
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: ExtraLight;
+    font-size: 16px;
+    line-height: 40px;
+
+
+}
+
+.footer-links-list-a {
+    text-decoration: none;
+    color: #B6C197;
+
+}
+
+.GetInTouch {
+    position: relative;
+
+}
+
+.GetInTouch::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 210px;
+    background-color: #5D6544;
+    width: 1px;
+    left: -50%;
+    transform: translateX(-50%);
+    top: calc(216px - 50%);
+    
+}
+
+.GetInTouch-Info {
+
+}
+
+.GetInTouch-Info-Title {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 0 0 21px 0;
+
+}
+
+.GetInTouch-info-txt {
+    max-width: 270px;
+    display: block;
+    padding: 0 0 10px 0;
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: ExtraLight;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6C197;
+}
+
+.GetInTouch-media {
+
+}
+
+.GetInTouch-media-email {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding: 0 0 21px 0;
+    display: block;
+    max-width: 320px;
+
+}
+
+.social-icons {
+
+}
+
+.AllRights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 166px 30px 166px;
+    position: relative;
+
+}
+
+.AllRights::before {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #5D6544;
+        width: 1110px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+}
+
+.AllRightsLogo {
+
+}
+
+.AllRights-txt {
+    display: block;
+    padding: 0 0 10px 0;
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: ExtraLight;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6C197;
+
+}
+
+
+
